@@ -15,6 +15,9 @@ interface HeroSectionProps {
 export const HeroSection: React.FC<HeroSectionProps> = ({ onNavigate, onCategorySelect, language }) => {
   const content = HOME_DATA[language];
   const contactContent = CONTACT_DATA[language];
+  const tooltipText = contactContent.tooltip || (language === 'zh' 
+    ? '还是想念武汉，但感觉之后可能也留在广深' 
+    : 'Still miss Wuhan, but likely to stay in Guangzhou-Shenzhen later.');
   const heroItems = content.heroItems || [];
   const [showToast, setShowToast] = useState(false);
   const [showLocationTooltip, setShowLocationTooltip] = useState(false);
@@ -92,14 +95,12 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onNavigate, onCategory
                       {contactContent.locationValue}
                   </div>
 
-                   {/* Floating Tooltip - Now Fixed Position above Location */}
-                   {contactContent.tooltip && (
-                     <div 
-                         className="absolute -top-10 left-0 z-50 px-4 py-2 bg-cyan-500/80 backdrop-blur-md text-white text-sm font-bold rounded-xl shadow-lg pointer-events-none transition-all duration-300 opacity-0 transform scale-95 translate-y-2 group-hover:opacity-100 group-hover:scale-100 group-hover:translate-y-0 whitespace-nowrap border border-white/20"
-                      >
-                         {contactContent.tooltip}
-                      </div>
-                   )}
+                  {/* Floating Tooltip - Fixed position above Location with fallback text */}
+                  <div 
+                      className="absolute -top-10 left-0 z-50 px-4 py-2 bg-cyan-500/80 backdrop-blur-md text-white text-sm font-bold rounded-xl shadow-lg pointer-events-none transition-all duration-300 opacity-0 transform scale-95 translate-y-2 group-hover:opacity-100 group-hover:scale-100 group-hover:translate-y-0 whitespace-nowrap border border-white/20"
+                   >
+                      {tooltipText}
+                   </div>
                </div>
 
                {/* Contact - Green Text */}

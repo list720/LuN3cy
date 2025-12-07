@@ -34,8 +34,11 @@ if %errorlevel% neq 0 (
 
 echo.
 echo 4. Pushing to GitHub...
-:: Increase buffer size to handle larger pushes and prevent timeouts
+:: Increase buffer size and timeout to handle unstable connections
 git config http.postBuffer 524288000
+git config http.lowSpeedLimit 0
+git config http.lowSpeedTime 999999
+git config --global http.version HTTP/1.1
 
 :push_retry
 git push origin main

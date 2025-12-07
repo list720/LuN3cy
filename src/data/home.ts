@@ -18,7 +18,7 @@ export const HOME_DATA: Record<Language, HomeContent> = {
     heroItems: [
       { text: "摄影摄像", annotation: "（作品积累较多）", category: Category.VIDEO },
       { text: "平面交互", annotation: "（当前主攻，兴趣所在）", category: Category.DESIGN },
-      { text: "程序开发", annotation: "（vibe coder）", category: Category.DEV },
+      { text: "应用开发", annotation: "（vibe builder）", category: Category.DEV },
       { text: "炒粉炒饭", annotation: "（还在学）", category: null }
     ],
     intro: "不懂设计的摄影师不是一个好的产品经理。|边学边做，MVP生活，迈向全栈，但更看重实际价值。",

@@ -18,6 +18,21 @@ export const ARTICLES_PAGE_DATA: Record<Language, ArticlesPageContent> = {
 
 export const ARTICLE_DATA = [
   {
+    id: 'a0',
+    common: {
+      category: ArticleCategory.DIT,
+      link: 'https://mp.weixin.qq.com/s/ifDrWOJQ3Pqhf1_siCM9mg',
+      coverImage: 'https://lun3cy.notion.site/image/attachment%3A9fbcf761-fe09-4bd6-b0f9-5acd3eb98e1e%3A%E5%B0%81%E9%9D%A2.png?table=block&id=2c1f4f61-90b0-802f-b73f-cce1357afe89&spaceId=bfa23b18-0167-4223-aea0-06f1efb0e882&width=1420&userId=&cache=v2', // No cover provided
+      date: '2025-12-03'
+    },
+    zh: {
+      title: '封 面 大 放 送',
+    },
+    en: {
+      title: 'Cover Art Collection',
+    }
+  },
+  {
     id: 'a1',
     common: {
       category: ArticleCategory.DIT,
@@ -293,13 +308,28 @@ export const ARTICLE_DATA = [
       category: ArticleCategory.AFTER8,
       link: 'https://mp.weixin.qq.com/s/ZTfsLCdwxtiEKw44gVkQRg',
       coverImage: 'https://mmbiz.qpic.cn/mmbiz_png/MpZIibj0bjSzHmzJfHVjbh7jaE4sTwG96tYC2mddm828ibQj37jjQDIibL60RDzibVzEDybXGP07LnqznbyFkm3ibNQ/640?wx_fmt=png&from=appmsg',
-      date: '2023-10-01'
+      date: '2025-08-15'
     },
     zh: {
       title: 'After8 | 0.栏目介绍',
     },
     en: {
       title: 'After8 | 0. Channel Introduction',
+    }
+  },
+  {
+    id: 'af2',
+    common: {
+      category: ArticleCategory.AFTER8,
+      link: 'https://mp.weixin.qq.com/s/N_y4VLJHUGzhUDQmjgntKw',
+      coverImage: 'https://mmbiz.qpic.cn/mmbiz_png/MpZIibj0bjSxTIcLAD2Ctryt7LkFnkct0nWZ4sRmLEzcuHxvcJo5n4kGVITaGqAhtl5yBkDBqiabm76rFgsr24OQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=1',
+      date: '2025-12-08'
+    },
+    zh: {
+      title: '山河应犹在，只是故人改。',
+    },
+    en: {
+      title: 'Mountains May Depart.',
     }
   },
   {

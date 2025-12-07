@@ -9,7 +9,7 @@ export const CATEGORY_LABELS: Record<Language, Record<string, string>> = {
     'Videography': '动态影像', // Renamed
     'Graphics & UI': '平面交互',
     'Photography': '静态摄影', // Renamed
-    'Development': '程序开发'
+    'Development': '应用开发'
   },
   en: {
     'All': 'All',

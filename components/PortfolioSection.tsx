@@ -119,6 +119,15 @@ export const PortfolioSection: React.FC<PortfolioSectionProps> = ({ language, ex
                           referrerPolicy="no-referrer"
                           className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 will-change-transform"
                         />
+                    ) : project.bilibiliId ? (
+                        <div className="w-full h-full flex items-center justify-center bg-gray-100 dark:bg-gray-800 group-hover:bg-gray-200 dark:group-hover:bg-gray-700 transition-colors duration-300">
+                            <div className="flex flex-col items-center gap-4">
+                                <div className="w-16 h-16 rounded-full bg-[#FF6699] text-white flex items-center justify-center shadow-lg transform group-hover:scale-110 transition-transform duration-300">
+                                   <svg viewBox="0 0 24 24" fill="currentColor" className="w-8 h-8 ml-1"><path d="M8 5v14l11-7z"/></svg>
+                                </div>
+                                <span className="text-sm font-bold text-gray-500 dark:text-gray-400 uppercase tracking-widest">Video Preview</span>
+                            </div>
+                        </div>
                     ) : (
                         <div className="w-full h-full flex items-center justify-center bg-gray-200 dark:bg-gray-800 p-8 text-center">
                             <div>
@@ -284,7 +293,7 @@ export const PortfolioSection: React.FC<PortfolioSectionProps> = ({ language, ex
                            // Bilibili Player with Click-to-Load Optimization
                            <div className="w-full h-full bg-black relative group">
                                 <iframe
-                                    src={`//player.bilibili.com/player.html?bvid=${selectedProject.bilibiliId}&page=1&high_quality=1&danmaku=0&autoplay=0`}
+                                    src={`https://player.bilibili.com/player.html?bvid=${selectedProject.bilibiliId}&page=1&high_quality=1&danmaku=0&autoplay=0`}
                                     className="w-full h-full relative z-10"
                                     scrolling="no"
                                     frameBorder="0"

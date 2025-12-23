@@ -1,30 +1,20 @@
-# Hi there, I'm LuN3cy Fan 👋
+<pre align="center">
+一个简洁、优雅、快速的静态博客模板！🚀 使用 Gemini 3 Pro 开发。
+</pre>
 
-> "A photographer who doesn't understand design is not a good product manager."
->
-> 不懂设计的摄影师不是一个好的产品经理。
+[**🖥️ LuN3cy Demo**](https://zayck-LuN3cy.pages.dev)
+[**🖥️ 我的博客**](https://zayck.pages.dev)
 
-I'm a creator based in **Zhuhai, Guangdong**, focusing on Videography, Design, and Development. Learning by doing, living the MVP life.
+# Hi there, I'm Zayck 👋
 
-## 🎨 What I Do
 
-*   **Videography** (Extensive Portfolio)
-*   **Graphic & UI** (Main Focus & Passion)
-*   **Development** (Vibe Builder)
-*   **Cooking** (Still Learning...)
-
-## 🛠️ Tech Stack & Tools
-
-*   **Design**: Figma & AI Tools
-*   **Dev**: Trae & Google AI Studio
-*   **Video**: DaVinci Resolve, CapCut(No charge plz)
 
 ## 📫 Connect with Me
 
-*   **WeChat Official/公众号**: LuN3cy的实验房
-*   **RED/小红书**: LuN3cy
-*   **Bilibili**: [LuN3cy](https://space.bilibili.com/13573186)
-*   **500px**: [LuN3cy](https://500px.com.cn/LuN3cy)
+*   **WeChat Official/公众号**: 少阳手记、少阳研究所
+*   **RED/小红书**: 少阳手记
+*   **Bilibili**: [LuN3cy](https://space.bilibili.com/341981702)
+*   **BLOG**: [Zayck' Blog](https://zayck.pages.dev)
 
 ---
 
